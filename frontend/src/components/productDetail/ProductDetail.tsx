@@ -81,7 +81,7 @@ const ProductDetail = () => {
     };
   }, []);
   if (!id) {
-    return <NotFound />;
+    return <div>產品未找到。</div>;
   }
   if (isError) {
     return (
